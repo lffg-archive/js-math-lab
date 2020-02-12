@@ -1,0 +1,10 @@
+{
+  "modules": "*.js",
+  "exportedMember": "isPrime",
+  "input": {
+    "type": "number"
+  },
+  "output": {
+    "type": "boolean"
+  }
+}
