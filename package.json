@@ -1,0 +1,12 @@
+{
+  "name": "js-math-lab",
+  "version": "0.0.0",
+  "private": true,
+  "repository": "git@github.com:lffg/js-math-lab.git",
+  "author": "Luiz Felipe Gonçalves <https://luizfelipe.dev>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-lffg": "^13.0.0"
+  }
+}
