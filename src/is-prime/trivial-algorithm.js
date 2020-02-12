@@ -1,5 +1,11 @@
 const { validateNumber } = require('../shared/validate-number');
 
+/**
+ * Checks if the given number is prime.
+ *
+ * @param {number} input
+ * @return {boolean}
+ */
 function isPrime(input) {
   const number = validateNumber(input);
 
@@ -34,6 +40,13 @@ function isPrime(input) {
   // prime, so we can return `true`.
   return true;
 }
+
+// Usage example:
+//
+//   isPrime(1); // false
+//   isPrime(2); // true
+//   isPrime(3); // true
+//   isPrime(4); // false
 
 module.exports = {
   isPrime
